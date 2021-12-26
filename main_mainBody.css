@@ -1,0 +1,85 @@
+/* VIDEO BACKGROUND */
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 95vh;
+}
+
+.video-bg {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+/* RESPONSIVE VIDEO BACKGROUND */
+@media (max-width: 992px) {
+  .video-bg {
+    top: 65%;
+    left: 65%;
+  }
+  .video {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .video-bg {
+    top: 80%;
+    left: 100%;
+  }
+  .video {
+    min-height: 60vh;
+  }
+}
+
+/* FIRST PARAGRAPH */
+
+.s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.s1P-first {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+/* SECOND PARAGRAPH */
+
+.s2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  font-size: 1.2rem;
+}
+
+.s2P-first {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+.s2-ul {
+  align-self: flex-start;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.s2-ul ul {
+  align-self: center;
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0c1824;
+}
+/* NavBar Brand_LOGO */
+
+.navbar-brand img {
+  margin-left: 10px;
+  user-select: none;
+  -webkit-transform: scale(1.5);
+}
+
+/* NavBar ul elements */
+.navbar-nav.navbar_ul {
+  margin: 0 auto;
+}
+
+.navbar_ul li {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.navbar_ul li a {
+  color: #ff5152;
+  font-size: 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.navbar_ul li a:hover {
+  -webkit-transform: scale(1.2);
+  color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+  .navbar_ul li {
+    font-size: 1.5rem;
+  }
+
+  .navbar_ul li a:hover {
+    -webkit-transform: scale(1);
+  }
+}
+
+/* NavBar Download Button */
+
+.nav-Download {
+  color: #ff5152;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.nav-Download:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #ff5152;
+  color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+  .nav-Download {
+    font-size: 1.8rem;
+  }
+}
+
+/* NavBar Toggle Icon */
+
+.toggle_icon {
+  border: 2px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+}
+.toggle_icon {
+  background-color: #c74d4d;
+}
